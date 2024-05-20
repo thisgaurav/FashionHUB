@@ -1,0 +1,79 @@
+body{
+  background-color: #75829C;
+  overflow: hidden;
+  background-image: linear-gradient(225deg, #A4999E 50%, #75829C 50%, #012739 0%);
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 900px;
+  height: 552px;
+
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.right-side{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.name-input {
+  display: flex;
+  gap: 60px;
+  margin: 10px;
+}
+.title{
+  color: #012739;
+  font-family: Roboto Flex;
+}
+
+label{
+  color: #012739;
+  display: flex;
+  font-weight: 700;
+  margin-bottom: 5px;
+
+}
+.Email-input, .Password-input{
+width: 300px;
+}
+
+.bttn{
+margin-top:20px ;
+/* background-image: linear-gradient(225deg, #A4999E 100%, #75829C 51%, #012739 0%); */
+background-color: #A4999E;
+width: 200px;
+font-family: Roboto Flex;
+border-radius: 25px;
+padding-block: 10px;
+border: none;
+color: white;
+transition: all 0.2s ease-in-out;
+border: 2px solid #A4999E;
+cursor: pointer;
+height: 45px;
+}
+
+.bttn:hover {
+  background-color: #fff;
+  border: 2px solid #A4999E;
+  color: #A4999E;
+}
